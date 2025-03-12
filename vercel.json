@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/admin-dashboard", "destination": "/index.html" },
+    { "source": "/edit-car/:id", "destination": "/index.html" },
+    { "source": "/add-car", "destination": "/index.html" },
+    { "source": "/car/:id", "destination": "/index.html" },
+    { "source": "/:path*", "destination": "/index.html" }
+  ]
+}
